@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction to HTML Worksheet - Tessy International School</title>
+  <style>
+    /* Styling for printable/clean display */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f4f7f6;
+      color: #2c3e50;
+      padding: 30px 15px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .worksheet-card {
+      width: 100%;
+      max-width: 850px;
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      border-top: 8px solid #1e3a8a;
+    }
+
+    .header {
+      text-align: center;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    }
+
+    .header h1 {
+      color: #1e3a8a;
+      font-size: 1.8rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .header h2 {
+      color: #0d9488;
+      font-size: 1.2rem;
+      margin-top: 5px;
+      font-weight: 600;
+    }
+
+    .student-info {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      background-color: #f8fafc;
+      padding: 15px 20px;
+      border-radius: 6px;
+      border: 1px solid #e2e8f0;
+    }
+
+    .info-field {
+      font-weight: bold;
+    }
+
+    .info-field span {
+      font-weight: normal;
+      border-bottom: 1px dashed #64748b;
+      display: inline-block;
+      min-width: 150px;
+      margin-left: 5px;
+    }
+
+    .section-title {
+      background-color: #1e3a8a;
+      color: white;
+      padding: 8px 15px;
+      font-size: 1.1rem;
+      border-radius: 4px;
+      margin: 25px 0 15px 0;
+    }
+
+    .question {
+      margin-bottom: 20px;
+      padding-left: 10px;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .options {
+      list-style-type: none;
+      padding-left: 20px;
+    }
+
+    .options li {
+      margin-bottom: 6px;
+    }
+
+    .answer-space {
+      width: 100%;
+      height: 60px;
+      border: 1px dashed #cbd5e1;
+      border-radius: 4px;
+      margin-top: 8px;
+      background-color: #fafafa;
+    }
+
+    .code-box {
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #f1f5f9;
+      padding: 10px;
+      border-radius: 4px;
+      border-left: 4px solid #0d9488;
+      margin: 10px 0;
+      white-space: pre-wrap;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.85rem;
+      color: #64748b;
+      border-top: 1px solid #e2e8f0;
+      padding-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="worksheet-card">
+    
+    <!-- Header -->
+    <header class="header">
+      <h1>Tessy International School</h1>
+      <h2>Web Design Class — Introduction to HTML Worksheet</h2>
+    </header>
+
+    <!-- Student Metadata -->
+    <div class="student-info">
+      <div class="info-field">Student Name: <span></span></div>
+      <div class="info-field">Class / Term: <span></span></div>
+      <div class="info-field">Date: <span></span></div>
+    </div>
+
+    <!-- Section A: Multiple Choice -->
+    <div class="section-title">Section A: Multiple Choice Questions</div>
+
+    <div class="question">
+      <p>1. What does the acronym HTML stand for?</p>
+      <ul class="options">
+        <li>A) Hyper Text Markup Language</li>
+        <li>B) High Tech Modern Language</li>
+        <li>C) Hyperlink Text Management Language</li>
+        <li>D) Home Tool Markup Language</li>
+      </ul>
+    </div>
+
+    <div class="question">
+      <p>2. Which HTML element is used to define the title of a web page that appears on the browser tab?</p>
+      <ul class="options">
+        <li>A) &lt;meta&gt;</li>
+        <li>B) &lt;head&gt;</li>
+        <li>C) &lt;title&gt;</li>
+        <li>D) &lt;header&gt;</li>
+      </ul>
+    </div>
+
+    <div class="question">
+      <p>3. Which is the correct HTML tag for creating the largest heading?</p>
+      <ul class="options">
+        <li>A) &lt;heading&gt;</li>
+        <li>B) &lt;h6&gt;</li>
+        <li>C) &lt;head&gt;</li>
+        <li>D) &lt;h1&gt;</li>
+      </ul>
+    </div>
+
+    <div class="question">
+      <p>4. What character is used to indicate a closing tag in HTML?</p>
+      <ul class="options">
+        <li>A) ^</li>
+        <li>B) /</li>
+        <li>C) &lt;</li>
+        <li>D) *</li>
+      </ul>
+    </div>
+
+    <!-- Section B: Short Answer & Fill in the Blanks -->
+    <div class="section-title">Section B: Short Answer Questions</div>
+
+    <div class="question">
+      <p>5. Explain the primary difference between the &lt;head&gt; and the &lt;body&gt; section of an HTML document.</p>
+      <div class="answer-space"></div>
+    </div>
+
+    <div class="question">
+      <p>6. List three essential tags that must be present in every standard HTML5 document structure.</p>
+      <div class="answer-space"></div>
+    </div>
+
+    <div class="question">
+      <p>7. Name the correct HTML tags used for creating:</p>
+      <p style="font-weight: normal; margin-left: 15px;">a) An ordered (numbered) list: _______________</p>
+      <p style="font-weight: normal; margin-left: 15px;">b) An unordered (bulleted) list: _______________</p>
+      <p style="font-weight: normal; margin-left: 15px;">c) An individual list item: _______________</p>
+    </div>
+
+    <!-- Section C: Practical & Code Correction -->
+    <div class="section-title">Section C: Practical Coding Exercises</div>
+
+    <div class="question">
+      <p>8. Identify two syntax errors in the following snippet of code:</p>
+      <div class="code-box">
+&lt;p&gt;Welcome to Tessy International School&lt;p&gt;
+&lt;img src="school_logo.jpg" alt="School Logo"&gt;
+      </div>
+      <div class="answer-space"></div>
+    </div>
+
+    <div class="question">
+      <p>9. Write the exact HTML code needed to insert an image named <code>student.jpg</code> with an alternative text description saying "A student at work".</p>
+      <div class="answer-space"></div>
+    </div>
+
+    <div class="question">
+      <p>10. Write a complete, basic HTML page skeleton containing a title ("My First Webpage"), a main heading ("Welcome to Web Design Class"), and a short paragraph introducing yourself.</p>
+      <div class="answer-space" style="height: 120px;"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>Web Design Department | Tessy International School &copy; All Rights Reserved</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
